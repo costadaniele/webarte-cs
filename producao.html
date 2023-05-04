@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--p5.js-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.5.2/lib/p5.min.js" type="text/javascript"></script>
+    <script src="https://www.openprocessing.org/assets/js/vendor/p5jsReleases/p5-release-0.5.2/addons/p5.dom.js"
+        type="text/javascript"></script>
+    <script src="https://www.openprocessing.org/assets/js/vendor/p5jsReleases/p5-release-0.5.2/addons/p5.sound.js"
+        type="text/javascript"></script>
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="creditos.css" />
+    <link rel="stylesheet" type="text/css" href="mobile_creditos.css" />
+
+    <!--Js-->
+    <script src="index.js" type="text/javascript"></script>
+    <!--Favicon-->
+    <link rel="shortcut icon" href="../icone.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cápsulas Sonoras</title>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZVY8BWMSE3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZVY8BWMSE3');
+</script>
+
+<body class="is-preload">
+    <div id="wrapper">
+        <div id="bg"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <nav>
+                    <ul>
+                        <li><a href="creditos.html">
+                                <div class="botao-play"> ▷ </div>
+                            </a></li>
+                    </ul>
+                </nav>
+                <div class="text">
+                    <h1>Produção by | Produced by</h1>
+                    <div class="produzido">
+                        <div class="logo_sonatorio"><a href="https://sonatorio.org/"><img
+                                    src="LOGOS/01_Realizacao_CapsulasSonoras_SONATORIO.png" alt="logo SONatório" /></a>
+                        </div>
+                        <div class="logo_proext"> <img src="LOGOS/02_Proext_UFRB-branco.png" alt="logo Proext" />
+                        </div>
+                    </div>
+                   <br>
+                    <h1>Uma Cooperação | In Co-Operation with</h1>
+                    <div class="patrocinadores">
+                        <div class="logo_topia"><a href="https://www.instagram.com/topia_soundart_festival/?utm_medium=copy_link"><img
+                                    src="LOGOS/PATROCINIO/Topia_P&B_no_background.png" alt="logo Festival Topia" /></a> </div>
+                        <div class="logo_b"> <a href="https://errantsound.net/about/"><img src="LOGOS/PATROCINIO/B.jpg"
+                                    alt="logo" /></a> </div>
+                            <div class="logo_c"> <a href="https://www.goethe.de/"><img src="LOGOS/PATROCINIO/C.jpg"
+                                        alt="logo" /></a>
+                            </div>
+                            <div class="logo_d"><img src="LOGOS/PATROCINIO/D.jpg" alt="logo" /> </div>
+                            <div class="logo_e"> <img src="LOGOS/PATROCINIO/E.jpg" alt="logo" /> </div>
+                            <div class="logo_f"> <img src="LOGOS/PATROCINIO/F.jpg" alt="Logo" /> </div>
+                    </div>
+                    
+                </div>
+            </header>
+
+        </div>
+    </div>
+    </div>
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+    </script>
+</body>
+
+</html>
